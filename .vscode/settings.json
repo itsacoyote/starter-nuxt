@@ -1,5 +1,5 @@
 {
-  "cSpell.words": ["Vite", "vitest", "vueuse", "pinia", "antfu", "iconify", "vitejs", "unplugin", "pnpm", "unhead", "Afacad", "nuxt"],
+  "cSpell.words": ["Vite", "vitest", "vueuse", "pinia", "antfu", "iconify", "vitejs", "unplugin", "pnpm", "unhead", "Afacad", "nuxt", "nuxtjs"],
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
     "tsconfig.json": "tsconfig.*.json, env.d.ts, *.d.ts",
