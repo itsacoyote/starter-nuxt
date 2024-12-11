@@ -1,0 +1,51 @@
+{
+  "cSpell.words": ["Vite", "vitest", "vueuse", "pinia", "antfu", "iconify", "vitejs", "unplugin", "pnpm", "unhead", "Afacad", "nuxt"],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts, *.d.ts",
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig, tailwind.config.*, postcss.config.*"
+  },
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.rulers": [80],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  // Silences the stylistic rules in your IDE, but still auto fixes them
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "format/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" },
+    { "rule": "simple-import-*", "severity": "off" }
+  ],
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.removeUnusedImports": "always"
+    }
+  },
+  "[markdown]": {
+    "editor.rulers": [100],
+    "editor.wordWrap": "wordWrapColumn",
+    "rewrap.autoWrap.enabled": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "never"
+    },
+    "editor.quickSuggestions": {
+      "other": "off",
+      "comments": "off",
+      "strings": "off"
+    },
+    "editor.suggest.showWords": false,
+    "editor.tabCompletion": "onlySnippets"
+  }
+}
