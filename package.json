@@ -13,9 +13,18 @@
   },
   "dependencies": {
     "@nuxt/eslint": "0.7.2",
+    "@nuxt/fonts": "0.10.3",
+    "@nuxt/icon": "1.10.0",
+    "@nuxt/image": "1.8.1",
+    "@nuxtjs/seo": "2.0.2",
     "@nuxtjs/tailwindcss": "6.12.2",
+    "@pinia/nuxt": "^0.9.0",
+    "@vueuse/nuxt": "12.0.0",
     "eslint": "^8.57.0 || ^9.0.0",
     "nuxt": "^3.14.1592",
+    "nuxt-gtag": "3.0.2",
+    "pinia": "^2.3.0",
+    "radix-vue": "^1.9.11",
     "vue": "latest",
     "vue-router": "latest"
   },
